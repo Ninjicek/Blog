@@ -7,7 +7,7 @@ include 'logic/search_logic.php';
     <a href="add_article.php" class="btn btn-primary mb-4 d-flex align-items-center justify-content-center">
     <span class="material-symbols-outlined" style="font-size: 5rem;">add</span>
     </a>
-    <form method="get" action="index.php" id="sform">
+    <form method="get" action="index.php">
     <div class="form-group d-flex">
         <div class="flex-grow-1 ms-3">
             <label for="sort_by"></label>
@@ -24,7 +24,7 @@ include 'logic/search_logic.php';
             </select>
         </div>
     </div>
-    <button type="submit" class="btn btn-primary ms-3">Seřaď</button>
+    <button type="submit" class="btn btn-primary ms-3 srt">Seřaď</button>
 </form>
         <?php foreach ($articles as $article):?>
             <div class="card my-4">
