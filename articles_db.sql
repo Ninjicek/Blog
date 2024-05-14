@@ -18,6 +18,8 @@
 --
 -- Table structure for table `articles`
 --
+CREATE DATABASE IF NOT EXISTS `articles_db`;
+USE `articles_db`;
 
 DROP TABLE IF EXISTS `articles`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
